@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Cookies</title>
+    <style>
+        .caixa{
+            width: auto;
+            padding: 1% ;
+            
+        }
+        p{
+            color: white;
+            text-align: justify;
+        }
+        li{
+            color: white;
+            margin-right: 2px;
+           
+        }
+        li::marker{
+         color: rgb(33, 37, 41);  
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center fw-bolder">Cookies 🍪</h1>
+<div class="container">
+
+    <H2>O que são?:</H2>
+    <div class="caixa bg-dark rounded fs-3 "><p>São arquivos que guardam nossas informações de uso de algum site em nosso próprio computador cliente. Ou seja, os cookies são arquivos que guardam nossas preferências.</p>
+    </div>
+<br>
+    <h2>Cuidados</h2>
+    <div class="caixa  bg-dark rounded fs-3 ">
+    <p>Podem ser suscetíveis a ataques<br>
+    Roubo de informações</p>
+    </div>
+<br>
+    <h2>Como criar um:</h2>
+    <div class="caixa  bg-dark rounded">
+        <p><i class="text-info">setcookie</i>(<i class="text-warning">'nome'</i>,$valorConteudo, (opcional, tempo de vida)<i style="color: rgb(121, 82, 179);">time()</i>+tempo em segundos)<br>
+        </p>
+        </div>
+<br>
+        <h2>Cálculo de tempo</h2>
+        <div class="caixa bg-dark rounded">
+        <li>60 - 1 Minuto</li>
+        <li>60 - 1 Hora</li>
+        <li>24 - 1 dia </li>
+        <li>Qtd de dias </li>
+        <li>(60*60*24*Qtd de dias) </li>
+        </div>
+<br>
+        <h2>Função header:</h2>
+        <div class="caixa  bg-dark rounded fs-3 ">
+            <p>Define o cabeçalho da página, ou de alguma outra com base no location<br>
+            header('location'=index.php)</p>
+            </div>
+            <br>
+    
+            <h2>Função isset:</h2>
+        <div class="caixa  bg-dark rounded fs-3 ">
+            <p>Geralmente é usado junto com um if. Ele verifica se o cookie existe por meio da síntaxe:<br> <i class="text-info">isset</i> ($_COOKIE[<i class="text-warning">'nomeCookie'</i>])</p>
+            </div>
+
+
+
+
+</div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>    
+</body>
+</html>
