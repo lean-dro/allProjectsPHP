@@ -1,0 +1,36 @@
+sessões agrupam dados como cookies
+ficam armazenadas em servidores
+
+comandos: 
+session_start()
+#MUITO IMPORTANTE
+Precisa estar no topo do código
+Não podemos abrir novamente enquanto estiver aberta
+
+
+$_SESSION[] = valor
+
+unset($_SESSION[])
+remoção de sessão
+
+
+session_destroy
+Destruição
+#NECESSÁRIO
+
+
+
+
+Sistemas de logins são os que mais usam
+
+--Armazenar o usuário logado
+
+--Garantir que somente usuários com login e senha corretos acessem
+--Garantir que enquanto logado, somente com um a sessão válida, o usuário permaneça logado
+
+
+
+
+
+Precisamos ter uma área restrita em nosso site
+Pasta separada
