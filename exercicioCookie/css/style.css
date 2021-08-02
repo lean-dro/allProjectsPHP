@@ -1,0 +1,13 @@
+table {
+    border-collapse: collapse;
+}  
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+     text-align: center;
+}
+td p{
+    
+    text-align: center;
+   font-family: Verdana;
+}
